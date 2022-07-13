@@ -17,15 +17,15 @@ Scans your Genshin Impact inventory and save as GOOD format.
 
 1. Cloning
 
-```bash
-git clone https://github.com/mxsgx/genshin-scanner.git
-```
+   ```bash
+   git clone https://github.com/mxsgx/genshin-scanner.git
+   ```
 
 2. Move to directory
 
-```bash
-cd genshin-scanner
-```
+   ```bash
+   cd genshin-scanner
+   ```
 
 #### Download as ZIP
 
