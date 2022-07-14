@@ -83,6 +83,21 @@ pip install -r cpu.txt
 pip install -r gpu.txt --extra-index-url https://download.pytorch.org/whl/cu116
 ```
 
+#### Reinstalling `opencv-python-headless`
+
+If you face error message like this:
+
+```text
+AttributeError: partially initialized module 'cv2' has no attribute 'gapi_wip_gst_GStreamerPipeline' (most likely due to a circular import)
+```
+
+Just run this command
+
+```bash
+pip uninstall opencv-python-headless
+pip install opencv-python-headless==4.5.4.60
+```
+
 > This will downloading package about >2GB so make sure your internet connection is stable and fast.
 
 ## Usage
