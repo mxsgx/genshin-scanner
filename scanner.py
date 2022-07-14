@@ -144,7 +144,7 @@ if __name__ == '__main__':
     parser.add_argument('scan', nargs=1, metavar="SOURCE", type=str,
                         help="file path or glob pattern if using bulk mode")
     parser.add_argument('-o', '--output', nargs=1, metavar="DESTINATION", type=str,
-                        help="the destination output file", default=['output.good'])
+                        help="the destination output file", default=['output.json'])
     parser.add_argument('-d', nargs=1, metavar="SECONDS",
                         type=int, help='delay process to reduce cpu, gpu, and memory usage', required=False, default=2)
     parser.add_argument('--no-delay', help='disable delay but increase cpu, gpu, and memory usage',

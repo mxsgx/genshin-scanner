@@ -98,3 +98,4 @@ temp/
 
 # Genshin Open Object Description
 *.good
+output.json
