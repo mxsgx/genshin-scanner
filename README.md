@@ -114,7 +114,7 @@ positional arguments:
 
 options:
   -h, --help            show this help message and exit
-  -o DESTINATION,       the destination output file (default: output.good)
+  -o DESTINATION,       the destination output file (default: output.json)
   --output DESTINATION
   -d SECONDS            delay process to reduce cpu, gpu, and memory usage (default: 2)
   --no-delay            disable delay but increase cpu, gpu, and memory usage
